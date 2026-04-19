@@ -1,9 +1,9 @@
 # PRD: AI Meeting Brief
 
 **Product:** Workstream (B2B SaaS Project Management)  
-**Author:** [Your Name]  
+**Author:** Madhumathi  
 **Status:** Draft  
-**Date:** June 2024  
+**Date:** June 2025  
 **Stakeholders:** Product, Engineering (2 FE, 1 BE, 1 ML), Design, Customer Success
 
 ---
