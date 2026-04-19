@@ -1,9 +1,9 @@
 # PRD: Pulse -- Burnout Early Warning System
 
 **Product:** Finch (B2B SaaS HR Platform)  
-**Author:** [Your Name]  
+**Author:** Madhumathi
 **Status:** Draft  
-**Date:** June 2024  
+**Date:** December 2025
 **Stakeholders:** Product, Engineering (2 FE, 1 BE), Design, People Ops, Legal
 
 ---
