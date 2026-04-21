@@ -1,7 +1,6 @@
 # PRD: Quality Intelligence Platform for Quick Commerce
 **Document Type:** Product Requirements Document  
-**Status:** Draft v1.0  
-**Author:** [Your Name]  
+**Author:** Madhumathi 
 **Last Updated:** April 2026  
 **Product Area:** Customer Experience & Operations Quality
 
