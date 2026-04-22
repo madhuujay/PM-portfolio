@@ -28,13 +28,13 @@
 
 ## 1. Executive Summary
 
-Quick commerce platforms promise delivery in 10–30 minutes, but this speed often comes at the cost of product quality — damaged goods, wrong items, near-expiry products, and poor packaging. This leads to a high volume of customer support queries, refund requests, and churn.
+Quick commerce platforms promise delivery in 10–30 minutes, but this speed often comes at the cost of product quality. Damaged goods, wrong items, near-expiry products, and poor packaging. This leads to a high volume of customer support queries, refund requests, and churn.
 
-This PRD defines the **Quality Intelligence Platform (QIP)** — a two-sided system that:
+This PRD defines the **Quality Intelligence Platform (QIP)** which is a two-sided system that:
 1. **Detects and resolves quality failures proactively** at the warehouse/delivery level.
 2. **Identifies patterns in customer queries** to systematically eliminate the root causes of recurring complaints.
 
-The platform bridges Operations, Customer Support, and Product teams with a shared data layer — turning reactive complaint management into proactive quality engineering.
+The platform bridges Operations, Customer Support, and Product teams with a shared data layer, turning reactive complaint management into proactive quality engineering.
 
 ---
 
@@ -50,11 +50,11 @@ Quick commerce platforms (Blinkit, Zepto, Swiggy Instamart, etc.) face a structu
 - Incorrect quantities or missing items
 - Poor thermal management for temperature-sensitive goods
 
-These failures create a surge in customer queries — most of which are repetitive, pattern-driven, and solvable at the source.
+These failures create a surge in customer queries and most of which are repetitive, pattern-driven and solvable at the source.
 
 ### 2.2 The Core Problem
 
-> **"Customers are raising the same complaints repeatedly because the same quality failures happen repeatedly — and no system connects the complaint signal back to the source of failure."**
+> **"Customers are raising the same complaints repeatedly because the same quality failures happen repeatedly and no system connects the complaint signal back to the source of failure."**
 
 | Symptom | Root Cause |
 |--------|-----------|
@@ -303,8 +303,8 @@ Issue Type
 **Description:** Picker scans or enters expiry date of perishable items at pick time.
 
 **Rules:**
-- Items with < 3 days to expiry: **Block pick** — must pick alternate batch
-- Items with 3–7 days to expiry: **Warn picker** — customer receives notification of near-expiry before delivery
+- Items with < 3 days to expiry: **Block pick** must pick alternate batch
+- Items with 3–7 days to expiry: **Warn picker** customer receives notification of near-expiry before delivery
 - Items with > 7 days: **Clear**
 
 **Acceptance Criteria:**
@@ -680,6 +680,4 @@ Quality Complaint
 
 ---
 
-*This PRD is a living document. Updates will be tracked via Git commit history.*
 
-*For questions or contributions, open a GitHub Issue or tag the PM in the relevant Slack channel.*
